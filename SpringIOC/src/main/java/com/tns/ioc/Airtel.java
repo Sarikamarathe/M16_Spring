@@ -1,0 +1,25 @@
+package com.tns.ioc;
+
+public class Airtel implements Sim
+{
+
+	
+	public Airtel()
+	{
+	
+		System.out.println("Airtel class constructor");	
+
+	}
+
+	public void calling() 
+	{
+		System.out.println("Airtel calling");	
+	}
+
+	public void data() 
+	{
+		System.out.println("Airtel Data-Pack");	
+
+	}
+
+}
